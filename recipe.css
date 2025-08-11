@@ -1,0 +1,145 @@
+body {
+    margin: 0 auto;
+    background-color: #F3E5D7;
+    display: flex;
+    font-family: 'Outfit';
+    color: #5F564D;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-weight: normal;
+    font-family: 'Young Serif';
+    color: #312E2C;
+    font-size: 40px;
+}
+
+h2 {
+    font-weight: normal;
+    font-family: 'Young Serif';
+    font-size: 28px;
+    color: #854632;
+}
+
+h3 {
+
+    font-size: 20px;
+    color: #7A284E;
+}
+
+p,
+h4 {
+    font-size: 16px;
+}
+
+.main {
+    box-sizing: border-box;
+    display: flex;
+    height: 1700px;
+    width: 736px;
+    background-color: white;
+    border-radius: 24px;
+    padding: 40px;
+    flex-direction: column;
+}
+
+.img {
+    width: 656px;
+    height: 300px;
+    border-radius: 12px;
+}
+
+h1,
+p,
+h3,
+h2 {
+    margin: 0;
+}
+
+h1 {
+    padding-bottom: 24px;
+}
+
+.title {
+
+    height: 112px;
+    padding-top: 40px;
+}
+
+.preparation {
+    box-sizing: border-box;
+    margin: 32px 0;
+    padding: 24px;
+    border-radius: 12px;
+    height: 172px;
+    background-color: #FFF7FB;
+}
+
+li {
+    line-height: 24px;
+    margin-bottom: 8px;
+    padding-left: 16px;
+}
+
+.ingredients {
+    padding-bottom: 32px;
+}
+
+.measure {
+    font-weight: bold;
+    color: #854632;
+}
+
+.nutrition>p {
+    padding: 24px 0;
+}
+
+.nutrition {
+    padding-top: 32PX;
+}
+
+.instructions {
+    padding: 32px 0;
+    border-top: #E3DDD7 solid 1px;
+    border-bottom: #E3DDD7 solid 1px;
+}
+
+table {
+    table-layout: fixed;
+    max-height: 168px;
+    width: 656px;
+    border-collapse: collapse;
+    box-sizing: border-box;
+}
+
+table td {
+    border-bottom: 1px solid #E3DDD7;
+    padding-bottom: 12px;
+
+}
+
+.mmain {
+    box-sizing: border-box;
+    height: 1280px;
+}
+
+ul,
+ol {
+    padding-left: 24px;
+}
+
+.preparation>ul {
+    li {
+        line-height: 24px;
+        margin-bottom: 8px;
+        padding-left: 16px;
+        color: #7A284E
+    }
+
+}
+
+li span {
+    color: #5F564D;
+}

@@ -1,0 +1,192 @@
+body {
+ font-family: "Inter", sans-serif;
+    margin: 0 auto;
+        font-size: 15px;
+        color:#5E607A;
+        
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    box-sizing: border-box;
+    height: 808px;
+    width: 1112px;
+    
+
+}
+
+header {
+    display: flex;
+height: 40px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul,
+li,
+a {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    color:#5E607A;
+
+
+}
+
+.list {
+    display: flex;
+
+}
+
+.header_list {
+    display: flex;
+
+    justify-content: space-between;
+    height: 26px;
+    width: 430px;
+}
+
+.main {
+    box-sizing: border-box;
+    display: flex;
+    margin: 64px 0;
+    justify-content: space-between;
+
+}
+
+.left-side {
+    width: 730px;
+    height: 508px;
+    
+}
+
+
+.right-side {
+    box-sizing: border-box;
+    width: 350px;
+    height: 511px;
+    background-color: #00001A;
+    padding: 32px 24px;
+
+}
+
+.right-side p{
+    color:#D8D8D8
+}
+.left-text-block {
+    min-width: 350px;
+    margin-right: 32px;
+    height: 185px;
+}
+
+.text-block {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    height: 48px;
+    width: 185px;
+    background-color: #F15D51;
+    font-size: 14px;
+    font-weight:bold;
+    letter-spacing: 4px;
+    border: none;
+    }
+
+.right-text-block {
+    max-height: 185px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1,
+h2,
+h3,
+p {
+
+    padding: 0;
+    margin: 0;
+}
+
+.first {
+    padding: 32px 0;
+}
+
+.second {
+    border-top: 1px solid #C5C6CE;
+    border-bottom: 1px solid #C5C6CE;
+    padding: 32px 0;
+}
+
+.third {
+    padding-top: 32px;
+}
+h3{
+    padding-bottom: 8px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+.item1, .item2, .item3{
+    box-sizing: border-box;
+    display: flex;
+    height: 129px;
+    width: 341px;
+    
+    
+}
+footer h2{
+    color:#F15D51;
+}
+footer h3{
+    color:black;
+    padding: 8px 0;
+}
+
+.item2-text{
+    display: flex;
+    flex-direction: column;
+}
+footer img{
+    height: 120px;
+    width: 100px;
+    padding-right: 24px;
+}
+p{
+    line-height: 25px;
+    font-size: 15px;
+}
+h1{
+    font-size: 56px;
+    color:black;
+}
+h2{
+font-size: 32px;
+color:black;
+}
+
+.right-side h3{
+    color:white;
+}
+.right-side h2{
+    color:#E9AA52;
+}
+h3{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
